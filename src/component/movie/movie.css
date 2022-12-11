@@ -73,8 +73,8 @@ color: #ffff;
 }
 @media screen and (max-width: 400px) {
 .Movie{
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .Movie__Result img{
     width: 200px;
