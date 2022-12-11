@@ -1,0 +1,28 @@
+.Header{
+    width: 100%;
+    background-color: #292929;
+    height: 140px;
+    display: flex;
+    align-items: center;
+}
+.Header__Logo{
+    margin-left: 77px;
+    border: 1px solid #FFFFFF;
+    width: 193px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Header__Logo h3{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+@media screen and (max-width: 850px) {
+    .Header{
+        justify-content: center;
+    }
+    .Header__Logo{
+        margin-left: 0;
+    }
+}

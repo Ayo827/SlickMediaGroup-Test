@@ -1,0 +1,49 @@
+.Banner{
+    width: 100%;
+    height: fit-content;
+    background-image: url(../../asset/banner.jpg);
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.Banner__Text{
+width: 490px;
+height: 282px;
+margin-left: 77px;
+}
+.Banner__Text p{
+font-family: DMSANS_Regular;
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 94px;
+letter-spacing: -0.05em;
+color: #FFFFFF;
+text-align: left;
+}
+@media screen and (max-width: 850px) {
+.Banner{
+    justify-content: center;
+}
+.Banner__Text{
+    margin-left: 0;
+}
+.Banner__Text p{
+    text-align: center;
+}
+}
+@media screen and (max-width: 400px) {
+.Banner{
+    height: 275px;
+}
+.Banner__Text{
+width: 273px;
+height: 72px;
+}
+.Banner__Text p{
+font-size: 28px;
+line-height: 36px;
+}
+}
